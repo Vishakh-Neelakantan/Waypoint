@@ -12,6 +12,14 @@ import math
 import logging
 from geopy.distance import geodesic
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Load environment variables from .env
+
+
+# Dynamically pull allowed origins
+origins = os.getenv("ALLOWED_ORIGINS", "").split(",")
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
