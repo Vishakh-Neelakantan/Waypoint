@@ -31,7 +31,7 @@ app = FastAPI(title="Route Generator API", version="3.0.0")
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://waypoint-vn.vercel.app/"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
