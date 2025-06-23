@@ -64,7 +64,7 @@ export default function RoutePlanner() {
     setRouteData(null)
 
     try {
-      const response = await fetch("waypoint-production-8a3e.up.railway.app", {
+      const response = await fetch("https://waypoint-production-8a3e.up.railway.app/generate-route", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
