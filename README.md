@@ -91,6 +91,5 @@ Vishakh Neelakantan
 
 Final-year B.Tech CSE student | Aspiring Software Developer
 
-🔗 Portfolio | 🌐 LinkedIn
 
 
